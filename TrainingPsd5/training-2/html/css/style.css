@@ -1,0 +1,147 @@
+/* Common elements which needs to be included in Global CSS
+
+Required: 
+1. Box-sizing Borderbox to each element - Global
+2. Proper Typography body, h1---h6, a, ul, ol - As per mockup file
+3. Container size should be defined. - As per mockup file 
+4. Clearfix class - Global
+5. Need to add max-width on image. - Global
+6. Form elements should be styled globally. - As per mockup file
+7. Button/CTA Style - As per mockup file
+
+Optional:
+1. Common classes for Width - w25, w33, w50, w66, w75, w100
+2. Common classes for spacing i.e padding & Margin
+
+
+*/
+
+* { 
+    box-sizing: border-box; 
+}
+.clearfix:before,.clearfix:after {
+    content:'';
+    width:100%;
+    display:table;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.input,
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+    width:100%;
+    display: block;
+    background-color: #222327;
+    color:#fff;
+    padding: 10px 12px;
+    border: none;
+}
+
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.centered {
+    margin: 0 auto;
+}
+.w25 {
+    width: 25%;
+}
+.w33 {
+    width:33.33%;
+}
+.w50 {
+    width: 50%;
+}
+.w66 {
+    width: 66.66%;
+}
+.w75 {
+    width: 75%;
+}
+.w100 {
+    width: 100%;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.mb30 {
+    margin-bottom: 30px;
+}
+.pl10,.plr10 {
+    padding-left: 10px;
+}
+.pr10,.plr10 {
+    padding-right: 10px;
+}
+.pl15,.plr15 {
+    padding-left: 15px;
+}
+.pr15,.plr15 {
+    padding-right: 15px;
+}
+
+.box {
+    background-color: red;
+    height: 200px;
+}
+.alternate {
+    background-color: blue;
+    
+}
+
+
+/* Transition and Transform
+
+
+Transition:
+
+transition: selector easing-function duration delay
+
+transition-property: all
+transition-function: ease
+transition-duration: 0.4s
+transition-delay:0s
+
+ex. transition: all ease 0.4s 0s
+
+
+
+Transform:
+translate, scale, skew, rotate, matrix
+
+2D: translate(x,y), scale(x,y), skew(x,y), rotate(deg)
+3D: translate(x,y,z), rotate3d(x,y,deg)
+
+
+1. Global Stylesheet - 
+2. Iframe, Audio, Video Tags
+3. Transition, Transform CSS
+
+
+
+*/
