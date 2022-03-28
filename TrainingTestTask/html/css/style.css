@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+/* Global css */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+.container {
+  max-width: 970px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main-container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  width: 100%;
+  display: table;
+}
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+}
+h1 {
+  font-size: 48px;
+  line-height: 57px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 34px;
+  line-height: 56px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+h3 {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+h4 {
+  font-size: 18px;
+  line-height: 57px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.button {
+  font-size: 18px;
+  line-height: 36px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.bc1 {
+  background-color: #fff;
+  color: #212121;
+}
+.bc2 {
+  background-color: #000;
+  color: #fff;
+}
+.fontWhite1 {
+  color: #fff;
+}
+.fontWhite2 {
+  color: #cfcfcf;
+}
+.fontBlack1 {
+  color: #212121;
+}
+.fontBlack2 {
+  color: #181818;
+}
+.fontBlue {
+  color: #0b53ac;
+}
+.backBlue {
+  background-color: #0b53ac;
+}
+.p10 {
+  padding: 10px 0 0 0;
+}
+.ib {
+  display: inline-block;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.centered {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.tt {
+  text-transform: uppercase;
+}
+/* For mobile phones: */
+/* [class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+   For desktop: 
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+} */
+.w25 {
+  max-width: 25%;
+  width: 100%;
+}
+.w50 {
+  width: 50%;
+}
+.w100 {
+  width: 100%;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.td {
+  text-decoration: none;
+}
+.one::after,
+.two::before,
+.three::after,
+.four::before {
+  content: "";
+  height: 4px;
+  width: 150px;
+  position: absolute;
+  background-color: #0b53ac;
+}
+.line {
+  width: 4px;
+  height: 272px;
+}
+.btn a:after {
+  content: "\f101";
+  font-family: FontAwesome;
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn a:hover {
+  padding-right: 40px;
+  padding-left: 30px;
+  background-color:navy;
+}
+.btn a:hover:after {
+  opacity: 1;
+  right: 15px;
+  top: 3px;
+}
+img:hover {
+  transform:skew(10deg);
+}
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  height: 100% auto;
+}
+/* Banner-section */
+.banner-section {
+  background-image: url("../assets/images/Banner_Image_2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 110px 0 25px 0;
+}
+.banner-section .banner_tag {
+  padding: 10px 0 24px 0;
+}
+.btn a {
+  display: inline-block;
+  padding: 3px 27px;
+  border-radius: 22px;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.blank_space {
+  padding: 180px 0;
+}
+.banner-section .partition {
+  padding: 97px 0 0 0;
+}
+.banner-section .partition .part1 {
+  max-width: 28.56%;
+  width: 100%;
+}
+.banner-section .partition .part2 {
+  max-width: 22.68%;
+  width: 100%;
+}
+.banner-section .partition .part3 {
+  max-width: 26.85%;
+  width: 100%;
+}
+.banner-section .partition .part4 {
+  max-width: 21.9%;
+  width: 100%;
+}
+.banner-section .partition .part1 .image {
+  padding: 4px 0 7px 63px;
+}
+.banner-section .partition .part2 .image {
+  padding: 23px 0 11px 15px;
+}
+.banner-section .partition .part3 .image {
+  padding: 0px 0 0px 50px;
+}
+.banner-section .partition .part4 .image {
+  padding: 4px 0 0px 86px;
+}
+/* about-section */
+.about-section {
+  background-image: url("../assets/images/dron.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 141px 0 163px 0;
+}
+.about-section .about_block {
+  padding: 0 0 0 70px;
+}
+span {
+  color: #0b53ac;
+}
+.about-section .para {
+  padding: 18px 406px 0 3px;
+}
+/* begining-section */
+.begining-section {
+  padding: 68px 0 117px 0;
+}
+.begining-section .block .para {
+  padding: 22px 0px 94px 2px;
+}
+.begining-section .big_block .left_part .content {
+  top: 50px;
+  left: 34px;
+  right: 250px;
+}
+.begining-section .big_block .content .para {
+  padding: 6px 0 0 0;
+}
+.begining-section .big_block .right_part .content {
+  top: 30px;
+  left: 271px;
+}
+.begining-section .big_block .block_image .dron {
+  padding: 122px 0 80px 30px;
+}
+.begining-section .big_block .block_image .layer {
+  top: -2px;
+  left: 315px;
+}
+.begining-section .big_block .block2 .right_part .content {
+  top: 46px;
+}
+/*-----------------------  block1   ---------------*/
+.begining-section .big_block .left_part .one::after {
+  top: 11px;
+  right: 138px;
+}
+.begining-section .big_block .left_part .line {
+  top: 13px;
+  right: 138px;
+}
+.begining-section .big_block .right_part .two::before {
+  top: 11px;
+  left: 130px;
+}
+.begining-section .big_block .right_part .line {
+  height: 267px;
+  top: 11px;
+  left: 130px;
+}
+/*-----------------------  block2   ---------------*/
+.begining-section .big_block .left_part .three::after {
+  bottom: 20px;
+  right: 140px;
+}
+.begining-section .big_block .left_part .three .line {
+  top: -85px;
+}
+.begining-section .big_block .right_part .four::before {
+  bottom: 20px;
+  left: 130px;
+}
+.begining-section .big_block .right_part .four .line {
+  top: -80px;
+}
+/* capable-section */
+.capable-section {
+  padding: 134px 0px;
+  letter-spacing: 0.1px;
+}
+.capable-section .para {
+  padding: 23px 95px 34px;
+  letter-spacing: 0px;
+}
+.capable-section .blue_block {
+  padding: 94px 0 96px;
+}
+.capable-section .img {
+  top: 42.4%;
+  left: 1.8%;
+}
