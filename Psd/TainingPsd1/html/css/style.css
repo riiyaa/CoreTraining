@@ -1,0 +1,708 @@
+/* Fonts & Icons */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+/* Global Declarations */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #73879c;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+  width: 100%;
+  display: table;
+  content: "";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #506a85;
+  margin: 0;
+}
+
+h1 {
+  font-size: 78px;
+  line-height: 88px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 44px;
+  line-height: 54px;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+a {
+  font-size: 15px;
+  font-weight: 700;
+  color: #00bb9b;
+  text-decoration: none;
+}
+
+.button a {
+  text-align: center;
+  font-size: 18px;
+  line-height: 33px;
+  padding: 14px 75px 14px;
+  background-color: #00bb9b;
+  color: #fff;
+  display: inline-block;
+  border-radius: 3px;
+  border-bottom: 2px solid #009f84;
+  text-transform: uppercase;
+}
+
+/* Header */
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.top-strip {
+  background-color: #f5f7f9;
+}
+
+.top-strip li {
+  display: inline-block;
+  padding: 11px 24px 11px 0;
+}
+
+.top-strip a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #506a85;
+  display: block;
+}
+
+.site-navigation {
+  padding: 23px 0;
+}
+
+.logo {
+  width: 16.66%;
+  float: left;
+  padding: 9px 0;
+}
+
+.navigation {
+  width: 66.64%;
+  float: left;
+}
+
+.navigation ul {
+  text-align: center;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  color: #506a85;
+  text-transform: uppercase;
+  padding: 22px;
+  display: block;
+}
+
+.social-media {
+  width: 16.66%;
+  float: left;
+  text-align: right;
+  padding: 18px 0;
+}
+
+.social-media ul li {
+  display: inline-block;
+}
+
+.social-media ul li a {
+  display: inline-block;
+  font-size: 0;
+  padding: 8px;
+}
+
+/* Banner */
+.banner-section {
+  text-align: center;
+  background: #506a85;
+  color: #a3b1bf;
+  font-size: 25px;
+  padding: 150px 20px;
+}
+
+.banner-section h1 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.banner-section p {
+  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.banner-section .button {
+  padding-top: 42px;
+}
+
+.banner-section-v2 {
+  text-align: center;
+  background: #fff;
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  padding: 100px 0;
+}
+.container2 p {
+  padding: 20px 65px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.banner-section-v2 .intrest {
+  padding: 0 50px 100px 50px;
+}
+
+.passion {
+  float: left;
+  width: 33%;
+}
+
+.image {
+  width: 20%;
+  float: left;
+}
+
+.text {
+  width: 80%;
+  float: left;
+  text-align: left;
+  padding-left: 10px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.text p {
+  font-size: 16px;
+}
+
+.banner-section-v3 {
+  text-align: center;
+  background-color: #ccc;
+  color: #506a85;
+  font-size: 22px;
+  padding: 100px 0;
+}
+.green{
+display: inline-block;
+}
+.green img{
+  max-width: 585px;
+  width: 100%;
+}
+
+.lbox {
+  padding: 15px;
+  width: 50%;
+  float: left;
+}
+
+.white {
+  text-align: center;
+  padding: 35px;
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid #e5e9ed;
+  border-top: none;
+  margin: -6px 0 0;
+}
+.banner-section-v3 .block2{
+  display: inline-block;
+  text-align: center;
+}
+.sbox {
+  margin: 50px auto 20px;
+  float: left;
+  width: 23%;
+  max-width: 270px;
+}
+.sbox img{
+  max-width: 100%;
+  height: auto;
+}
+.circlegrey,
+.circlegreen {
+  margin-top: 30px;
+  height: 20px;
+  max-width: 20px;
+  width: 100%;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circlegreen {
+  background-color: #00bb9b;
+}
+
+.circlegrey {
+  background-color: #506a85;
+}
+
+.banner-section-v4 {
+  text-align: center;
+  background: #fff;
+  color: #506a85;
+  font-size: 24px;
+  padding: 80px 10px;
+}
+
+.banner-section-v4 .button {
+  padding-top: 0px;
+  text-transform: uppercase;
+}
+
+.top h6 {
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.top {
+  background-color: #2f3f51;
+  overflow: hidden;
+  color: #a3b1bf;
+  font-size: 16px;
+  padding: 60px 0;
+}
+
+.top img {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.about {
+  padding: 15px;
+  width: 25%;
+  float: left;
+}
+
+.about a {
+  color: #a3b1bf;
+  padding-left: 0%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.about p {
+  margin-top: 0px;
+}
+
+.box {
+  border: 1px solid #00bb9b;
+  height: 80px;
+  background-color: #00bb9b;
+  max-width: 120px;
+  width: 95%;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding-top: 10px;
+}
+
+.part {
+  padding-top: 1px;
+  float: left;
+  width: 50%;
+}
+
+.buttonIn {
+  max-width: 300px;
+  position: relative;
+}
+
+.buttonIn input {
+  padding: 5px;
+  width: 100%;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #a3b1bf;
+  background: none;
+}
+
+button {
+  text-align: center;
+  margin-top: 3px;
+  position: absolute;
+  border-radius: 5px;
+  right: 0px;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  background-color: #00bb9b;
+  font-size: 12px;
+}
+
+.bottom {
+  background-color: #273545;
+  overflow: hidden;
+  color: #707e8c;
+  height: 82px;
+  font-size: 14px;
+}
+
+.copyright {
+  padding-top: 30px;
+  display: inline-block;
+}
+
+.bottom .nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.bottom a {
+  color: #506a85;
+}
+
+.bottom .nav {
+  padding-top: 15px;
+  float: right;
+  word-spacing: 10px;
+}
+
+/* Typography 
+h1 - 78/88 , Lato, 900, #506a85
+h2 - 44/54, Lato, 700, #506a85
+h3 - 26/34, lato, 700, #506a85
+h4 - 20/26, lato, 700, #506a85
+h5 - 18/24, lato, 700, #506a85
+h6 - 16/22, Lato, 700, #506a85
+*/
+
+/* Font Families
+---------------
+Hairline/Thin - 100
+Extra light - 200
+Light - 300
+Regular - 400
+Medium - 500
+Semibold - 600
+Bold - 700
+Extra Bold - 800
+Black - 900
+*/
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 992px;
+    padding: 0 15px;
+  }
+  .top-strip,
+  .site-navigation,
+  footer .bottom {
+    padding: 0 15px;
+  }
+  .banner-section-v2,
+  .banner-section,
+  .banner-section-v3,
+  .banner-section-v4,
+  footer .top {
+    padding: 100px 15px;
+  }
+  .navigation ul li a {
+    padding: 15px;
+  }
+  .social-media ul li a {
+    padding: 3px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 900px;
+  }
+  .banner-section-v2,
+  .banner-section,
+  .banner-section-v3,
+  .banner-section-v4,
+  footer .top {
+    padding: 65px 15px;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 1.4;
+  }
+  .container2 p {
+    font-size: 20px;
+    margin: 0;
+  }
+  .button a {
+    padding: 7px 12px;
+    width: auto;
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .banner-section p {
+    margin: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+  }
+  .text p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .circlegrey,
+  .circlegreen {
+    width: 50%;
+  }
+  .top h6 {
+    padding-bottom: 5px;
+  }
+  .top p {
+    font-size: 14px;
+  }
+  .copyright {
+    padding-top: 15px;
+  }
+  .bottom .nav {
+    padding-top: 0;
+  }
+  .bottom {
+    height: 50px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+  body {
+    line-height: 1.3;
+  }
+  .logo img{
+    width: 80%;
+  }
+  .logo {
+    width: 20%;
+    padding-left: 0px;
+  }
+  .navigation {
+    width: 60%;
+  }
+  .social-media ul li a {
+    padding: 1px;
+  }
+  .social-media {
+    width: 16%;
+    padding: 15px 0;
+    float: right;
+}
+  .navigation ul li a {
+    padding: 17px 5px;
+    font-size: 12px;
+}
+  .top-strip li {
+    padding: 5px 13px 5px 0;
+  }
+  .banner-section-v2,
+  .banner-section,
+  .banner-section-v3,
+  .banner-section-v4,
+  footer .top {
+    padding: 50px 15px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 1;
+  }
+  h4 {
+    font-size: 17px;
+  }
+  h6 {
+    font-size: 14px;
+  }
+  .container2 p {
+    font-size: 17px;
+    line-height: 26px;
+    margin: 0;
+  }
+  .green {
+    height: 250px;
+  }
+  .about {
+    width: 30%;
+  }
+  .passion {
+    width: 100%;
+    clear: left;
+    padding: 10px 100px;
+  }
+  .about:nth-child(2n + 1) {
+    clear: left;
+    width: 50%;
+  }
+  .circlegrey,
+  .circlegreen {
+    margin-top: 15px;
+    height: 15px;
+    width: 15px;
+  }
+  button {
+    margin-top: 0px;
+    right: -87px;
+    height: 38px;
+  }
+  .banner-section p {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+}
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }.navigation{
+    width: 80%;
+  }
+  
+.logo {
+    padding: 10px 0 0;
+}
+  .social-media{
+    clear: left;
+    width: 100%;
+    text-align: right;
+    padding: 5px 0;
+  }
+  .sbox{
+    width: 22%;
+  }
+  a {
+    font-size: 13px;
+  }
+  .navigation ul li a {
+    padding: 10px 3px 0;
+}
+.banner-section p {
+  padding: 10px;
+  margin: 0;
+  font-size: 16px;
+}
+.button {
+  padding-top: 20px;
+}
+.container2 p {
+  font-size: 16px;
+  padding: 20px 35px;
+}
+.passion {
+  padding: 10px 40px;
+}
+.lbox {
+  padding: 25px;
+  width: 100%;
+  clear: left;
+}
+.white {
+  padding: 17px;
+}
+.sbox {
+  width: 25%;
+  padding: 5px;
+  margin: 10px auto;
+}
+.circlegrey, .circlegreen {
+  margin-top: 0;
+}
+.about {
+  width: 50%;
+}
+button {
+  top: 2px;
+  right: 2px;
+  height: 33px;
+  font-size: 10px;
+}
+}
+@media(max-width:479px){
+  .container{
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .navigation ul li a {
+    padding: 16px 3px 0;
+    font-size: 8px;
+}
+h1 {
+  font-size: 25px;
+  line-height: 1.2;
+}
+.passion {
+  padding: 10px 5px;
+}
+button {
+  top: 40px;
+  right: 50px;
+  left: 0;
+  height: 30px;
+  font-size: 10px;
+}
+}
